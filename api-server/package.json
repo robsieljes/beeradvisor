@@ -1,0 +1,15 @@
+{
+  "name": "beeradvisor",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "dotenv": "*"
+  },
+  "scripts": {
+    "start": "npm install && nodemon -L apicall-server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
